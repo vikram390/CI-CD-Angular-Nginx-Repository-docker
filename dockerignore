@@ -1,0 +1,19 @@
+# Files and directories to exclude from Docker build context
+
+# NPM dependencies
+node_modules/
+
+# Build artifacts
+dist/
+
+# Development files
+src/
+.editorconfig
+.git/
+.gitignore
+.e2e/
+
+# Miscellaneous
+.dockerignore
+
+
